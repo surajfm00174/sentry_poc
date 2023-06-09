@@ -9,9 +9,11 @@ Sentry.init({
 });
 
 function App() {
+
   const onClickHandler = () => {
     throw new Error("oops!! something bad happened");
   };
+  
   return (
     <View>
       <Text>
