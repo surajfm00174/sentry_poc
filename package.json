@@ -9,7 +9,9 @@
     "start": "react-native start",
     "test": "jest",
     "android:dev": "node env.js ENV=dev && react-native run-android",
-    "android:prod": "node env.js ENV=prod && react-native run-android"
+    "android:prod": "node env.js ENV=prod && react-native run-android",
+    "android:stage": "node env.js ENV=stage && react-native run-android"
+
   },
   "dependencies": {
     "@sentry/react-native": "^5.5.0",
